@@ -10,7 +10,7 @@ public class ClientsDBManager {
         try {
             Class.forName("org.postgresql.Driver").getDeclaredConstructor().newInstance();
             connection = DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5430/clients", "m1", "qwerty");
+                    "jdbc:postgresql://localhost:5430/kazminhr_dev", "tal", "tal");
         } catch (Exception e) {
             e.printStackTrace();
         }
