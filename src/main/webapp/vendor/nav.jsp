@@ -17,6 +17,12 @@
         <li class="nav-item">
             <a class="nav-link" href="${pageContext.request.contextPath}/addClient.jsp">Add Client</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="${pageContext.request.contextPath}/allProducts.jsp">All Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="${pageContext.request.contextPath}/addProduct.jsp">Add Product</a>
+        </li>
     </ul>
 </nav>
 </body>
